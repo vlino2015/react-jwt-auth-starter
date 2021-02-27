@@ -20,7 +20,7 @@ import {
 
 // initializing redux store
 // requires a reducer. Second argument is for redux dev-tools extension.
-let store = createStore(reducer, persistedState, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
+let store = createStore(reducer,  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
 
 
 //provider hooks react to redux.  
